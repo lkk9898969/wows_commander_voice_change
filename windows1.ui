@@ -1,0 +1,117 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>Position_Check</class>
+ <widget class="QWidget" name="Position_Check">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>500</width>
+    <height>360</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Fixed" vsizetype="Fixed">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="maximumSize">
+   <size>
+    <width>500</width>
+    <height>360</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>戰艦世界 指揮官語音修改程式</string>
+  </property>
+  <widget class="QPushButton" name="Next">
+   <property name="geometry">
+    <rect>
+     <x>320</x>
+     <y>320</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>下一步</string>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Cancel">
+   <property name="geometry">
+    <rect>
+     <x>410</x>
+     <y>320</y>
+     <width>75</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>取消</string>
+   </property>
+  </widget>
+  <widget class="QLineEdit" name="Position">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>230</y>
+     <width>401</width>
+     <height>20</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>C:\Games\World_of_Warships</string>
+   </property>
+  </widget>
+  <widget class="QLabel" name="Text">
+   <property name="geometry">
+    <rect>
+     <x>40</x>
+     <y>60</y>
+     <width>381</width>
+     <height>151</height>
+    </rect>
+   </property>
+   <property name="font">
+    <font>
+     <family>微軟正黑體</family>
+     <pointsize>12</pointsize>
+    </font>
+   </property>
+   <property name="text">
+    <string>此為修改指揮官語音程式
+詳情請閱讀巴哈文章
+
+在此請確認資料夾位置是否戰艦世界資料夾
+請注意資料夾名稱應為&quot;World_of_Warships&quot;
+預設是&quot;C:\Games\World_of_Warships&quot;
+</string>
+   </property>
+   <property name="alignment">
+    <set>Qt::AlignLeading|Qt::AlignLeft|Qt::AlignTop</set>
+   </property>
+   <property name="textInteractionFlags">
+    <set>Qt::NoTextInteraction</set>
+   </property>
+  </widget>
+  <widget class="QPushButton" name="Change_Position">
+   <property name="geometry">
+    <rect>
+     <x>450</x>
+     <y>230</y>
+     <width>21</width>
+     <height>23</height>
+    </rect>
+   </property>
+   <property name="text">
+    <string>...</string>
+   </property>
+   <property name="checkable">
+    <bool>false</bool>
+   </property>
+  </widget>
+ </widget>
+ <resources/>
+ <connections/>
+</ui>
